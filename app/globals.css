@@ -4,24 +4,28 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
+  --selection-rgb: 0, 129, 112;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  /* :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: green;
     --background-end-rgb: 0, 0, 0;
-  }
+  } */
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-slate-950 text-slate-400 antialiased;
+  /* color: rgb(var(--foreground-rgb));
+  background-color: var(--background-start-rgb); */
+}
+::selection {
+  /* color: red; */
+  @apply text-slate-200 bg-highlight;
+}
+.navItem.active {
+  @apply text-slate-50;
 }
