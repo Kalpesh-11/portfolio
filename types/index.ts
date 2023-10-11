@@ -39,3 +39,22 @@ export interface ProjectCardProps {
   link?: string;
   imgSrc: string;
 }
+export interface ProjectListProps {
+  setProject: (project: ProjectProps) => void;
+}
+export interface ProjectProps {
+  title: string;
+  content: string;
+  learning: string[];
+  link?: string;
+  imgSrc: string;
+}
+export interface ProjectRowProps {
+  project: ProjectProps;
+}
+export interface ProjectStoreProps {
+  isOpen: boolean;
+  project: ProjectProps | null;
+  handlePopup: (isOpen: boolean) => void;
+  setProject: (project: ProjectProps) => void;
+}

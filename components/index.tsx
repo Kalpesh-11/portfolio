@@ -14,6 +14,10 @@ import CardHover from "./CardHover";
 import ExperienceCard from "./ExperienceCard";
 import CardContent from "./CardContent";
 import ProjectCard from "./ProjectCard";
+import ProjectTableHeader from "./ProjectTableHeader";
+import ProjectList from "./ProjectList";
+import ProjectRow from "./ProjectRow";
+import ProjectPopup from "./ProjectPopup";
 export {
   AboutDetails,
   ExperienceWrap,
@@ -31,4 +35,8 @@ export {
   ExperienceCard,
   CardContent,
   ProjectCard,
+  ProjectTableHeader,
+  ProjectList,
+  ProjectRow,
+  ProjectPopup,
 };

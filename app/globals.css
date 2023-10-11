@@ -18,7 +18,7 @@
 }
 
 body {
-  @apply bg-slate-950 text-slate-400 antialiased;
+  @apply bg-slate-900 text-slate-400 antialiased;
   /* color: rgb(var(--foreground-rgb));
   background-color: var(--background-start-rgb); */
 }
@@ -28,4 +28,10 @@ body {
 }
 .navItem.active {
   @apply text-slate-50;
+}
+.desktop-column {
+  @apply hidden lg:table-cell;
+}
+.tech-column {
+  @apply py-2 pr-6;
 }
