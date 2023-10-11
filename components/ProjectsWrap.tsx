@@ -1,8 +1,7 @@
 import projects from "@/constants/projects";
 import { ProjectCard } from "@/components";
+import Link from "next/link";
 export default function ProjectsWrap() {
-  // console.log(featuredProjectList());
-
   return (
     <>
       {projects.map((project, index) => {
@@ -19,6 +18,12 @@ export default function ProjectsWrap() {
           );
         }
       })}
+      <Link
+        href="projects"
+        className="text-slate-300 hover:text-highlight transition-colors"
+      >
+        View All Project
+      </Link>
     </>
   );
 }
