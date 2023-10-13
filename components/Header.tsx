@@ -5,7 +5,7 @@ export default function Header() {
     <>
       <div>
         <h1 className="text-slate-100 text-4xl font-extrabold lg:text-5xl">
-          Kalpesh Bhagat
+          Kalpesh Bhagatt
         </h1>
         <h2 className=" text-slate-300 text-xl mt-4 font-medium lg:text-2xl">
           Software Engineer at WisdmLabs
