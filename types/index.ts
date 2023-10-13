@@ -38,6 +38,7 @@ export interface ProjectCardProps {
   tags: string[];
   link?: string;
   imgSrc: string;
+  github?: string;
 }
 export interface ProjectListProps {
   setProject: (project: ProjectProps) => void;
@@ -47,7 +48,8 @@ export interface ProjectProps {
   content: string;
   learning: string[];
   link?: string;
-  imgSrc: string;
+  imgSrc?: string;
+  gitHub?: string;
 }
 export interface ProjectRowProps {
   project: ProjectProps;

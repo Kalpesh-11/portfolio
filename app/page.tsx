@@ -33,14 +33,34 @@ export default function Home() {
           <header className="py-12 lg:top-0 lg:h-screen lg:py-24 lg:w-1/2 lg:sticky">
             <Header />
           </header>
-          <main className=" lg:w-1/2 lg:pt-24">
+          <main className=" lg:w-1/2 lg:pt-24 lg:mb-20">
             {sections.map((section) => (
               <SectionWrap key={section.id} sectionID={section.id}>
                 <SectionHeading title={section.heading} />
                 {section.element}
               </SectionWrap>
             ))}
-            <div className=""></div>
+            <div className="center text-sm">
+              Design inspiration sourced from the talented{" "}
+              <a
+                href="https://brittanychiang.com/"
+                className="hover:text-highlight"
+                target="_blank"
+              >
+                {" "}
+                Brittany Chiang
+              </a>
+              . Grateful for the creativity and artistry. Explore her inspiring
+              portfolio at her{" "}
+              <a
+                href="https://brittanychiang.com/"
+                className="hover:text-highlight"
+                target="_blank"
+              >
+                website
+              </a>
+              .
+            </div>
           </main>
         </div>
       </div>

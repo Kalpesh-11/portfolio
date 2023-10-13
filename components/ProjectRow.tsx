@@ -8,13 +8,15 @@ export default function ProjectRow({ project }: ProjectRowProps) {
   const { setProject } = projectStore();
   return (
     <tr className="text-sm lg:text-base">
-      <td className="project-column font-semibold text-slate-200 lg:text-lg lg:font-bold py-2">
-        <a href={project.link} target="_blank">
+      <td className="project-column font-semibold text-slate-200 lg:text-base lg:font-bold py-2 cursor-pointer">
+        <a href={project.link ? project.link : project?.gitHub} target="_blank">
           <h2 className="">{project.title}</h2>
         </a>
       </td>
       <td className="detail-column desktop-column">
-        <div className="truncate w-80 py-2">{project.content}</div>
+        <div className="truncate w-80 py-2 text-xs lg:text-sm">
+          {project.content}
+        </div>
       </td>
       <td className="tech-column desktop-column">
         <ul className="flex flex-wrap gap-2">
@@ -23,7 +25,7 @@ export default function ProjectRow({ project }: ProjectRowProps) {
           ))}
         </ul>
       </td>
-      <td className="link-column py-2">
+      <td className="link-column py-2 text-xs lg:text-sm">
         <a
           href={project.link}
           target="_blank"

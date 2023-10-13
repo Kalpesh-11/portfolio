@@ -25,15 +25,18 @@ export default function ProjectPopup() {
       <div
         className={`absolute rounded-lg inset-1/2 bg-slate-950 -translate-x-1/2 -translate-y-1/2 w-[80vw] h-[80vh] p-6 lg:w-1/3 overflow-y-auto shadow-2xl`}
       >
-        <div className="w-[80%] mx-auto">
-          <Image
-            src={project.imgSrc}
-            alt={project.title}
-            width={500}
-            height={500}
-            quality={100}
-          />
-        </div>
+        {project.imgSrc && (
+          <div className="w-[80%] mx-auto">
+            <Image
+              src={project.imgSrc}
+              alt={project.title}
+              width={500}
+              height={500}
+              quality={100}
+            />
+          </div>
+        )}
+
         <div className="mt-4">
           <a href={project.link} target="_blank">
             <h2 className="text-lg lg:text-xl font-bold text-slate-200">

@@ -24,14 +24,23 @@ body {
 }
 ::selection {
   /* color: red; */
-  @apply text-slate-200 bg-highlight;
+  @apply text-slate-200 bg-highlight/70;
 }
-.navItem.active {
-  @apply text-slate-50;
-}
+
 .desktop-column {
   @apply hidden lg:table-cell;
 }
 .tech-column {
   @apply py-2 pr-6;
+}
+
+.hover-animation {
+  @apply bg-gradient-to-r from-highlight from-50% to-slate-200 to-50% bg-[length:200%_100%] bg-[-100%] pt-2 relative transition-all bg-clip-text text-transparent hover:bg-[0];
+}
+
+.hover-animation:before {
+  @apply bg-highlight absolute left-0 w-0 transition-all content-[''] block h-[0.1rem] -bottom-1 rounded-xl hover:w-full;
+}
+.hover-animation.active {
+  @apply text-highlight tracking-widest;
 }

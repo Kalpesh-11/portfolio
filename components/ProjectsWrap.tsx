@@ -14,15 +14,13 @@ export default function ProjectsWrap() {
               tags={project.learning}
               link={project?.link}
               imgSrc={project.imgSrc}
+              github={project?.gitHub}
             />
           );
         }
       })}
-      <Link
-        href="projects"
-        className="text-slate-300 hover:text-highlight transition-colors"
-      >
-        View All Project
+      <Link href="projects" className="hover-animation text-sm">
+        <span> View All Project</span>
       </Link>
     </>
   );
