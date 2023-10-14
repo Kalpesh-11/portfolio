@@ -19,7 +19,7 @@ export default function ProjectsWrap() {
           );
         }
       })}
-      <Link href="projects" className="hover-animation text-sm">
+      <Link href="projects" className="hover-animation text-sm lg:text-base">
         <span> View All Project</span>
       </Link>
     </>

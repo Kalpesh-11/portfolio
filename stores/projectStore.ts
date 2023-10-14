@@ -7,6 +7,9 @@ const projectStore = create<ProjectStoreProps>((set) => ({
 
   handlePopup: (isOpen: boolean) => {
     set({ isOpen });
+    if (isOpen == false) {
+      set({ project: null });
+    }
   },
   setProject: (project: ProjectProps) => {
     set({ project: project });
