@@ -2,6 +2,7 @@ import React from "react";
 import { ExperienceCard, SubHeading, Tag } from ".";
 import CardContent from "./CardContent";
 import experiences from "@/constants/experience";
+import Link from "next/link";
 
 export default function ExperienceWrap() {
   return (
@@ -16,6 +17,9 @@ export default function ExperienceWrap() {
           link={experience?.link}
         />
       ))}
+      <Link href="/resume.pdf" className="hover-animation text-sm lg:text-base">
+        <span> View Full Resume</span>
+      </Link>
     </>
   );
 }

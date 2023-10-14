@@ -32,6 +32,7 @@ const projects = [
     learning: ["React", "NEXT.js", "Tailwind", "Material UI", "Axios", "Redux"],
     imgSrc: "/netflix.png",
     isFeatured: true,
+    link: "https://netklixclone.vercel.app/",
     gitHub: "https://github.com/Kalpesh-11/netflix-dev",
   },
   {
@@ -53,6 +54,21 @@ const projects = [
     content:
       "Developed an innovative WooCommerce plugin for a client, offering fee-free payments and customer refunds, backed by Open Banking technology. This solution reduces cart abandonment, lowers operational costs, and provides an exceptional customer experience. Welcome to the future of e-commerce payments.",
     learning: ["WordPress", "WooCommerce", "PHP", "REST API"],
+  },
+  {
+    title: "GBRO - Greenmetry",
+    content:
+      "Greenmetry: A User-Friendly Solution for Streamlined CalGreen Compliance. It helps community of architects, designers, builders, planners, and inspectors dedicated to unlocking the full potential of green building codes for a sustainable future.",
+    learning: [
+      "WordPress",
+      "Gravity Form",
+      "Gravity View",
+      "PHP",
+      "elementor",
+      "REST API",
+    ],
+    imgSrc: "/greenmetry.png",
+    link: "https://greenmetry.com/",
   },
 ];
 export async function featuredProjectList() {
