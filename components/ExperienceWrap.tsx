@@ -17,7 +17,10 @@ export default function ExperienceWrap() {
           link={experience?.link}
         />
       ))}
-      <Link href="/resume.pdf" className="hover-animation text-sm lg:text-base">
+      <Link
+        href="/resume-kalpesh.pdf"
+        className="hover-animation text-sm lg:text-base"
+      >
         <span> View Full Resume</span>
       </Link>
     </>
