@@ -18,9 +18,9 @@ export default function projectPage() {
           >
             Back to Kalpesh Bhagat
           </Link>
-          <h1 className="text-slate-100 text-4xl mt-4  font-extrabold lg:text-5xl">
+          <h2 className="text-slate-100 text-4xl mt-4  font-extrabold lg:text-5xl">
             All Projects
-          </h1>
+          </h2>
           <table className="w-full mt-5 lg:mt-6">
             <thead className="text-left sticky top-0 bg-slate-900 text-slate-200">
               <ProjectTableHeader />
