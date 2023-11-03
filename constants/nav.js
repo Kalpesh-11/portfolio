@@ -24,7 +24,7 @@ export const socialMedia = [
   {
     title: "Linkedin",
     icon: <FaLinkedinIn />,
-    link: "https://www.linkedin.com/in/kalpesh-bhagat-08190a18b/",
+    link: "https://www.linkedin.com/in/kalpesh-bhagat/",
     target: "_blank",
   },
   {
