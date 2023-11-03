@@ -18,7 +18,8 @@ export default function ExperienceWrap() {
         />
       ))}
       <Link
-        href="/resume-kalpesh.pdf"
+        href="/Kalpesh_bhagat.pdf"
+        target="_blank"
         className="hover-animation text-sm lg:text-base"
       >
         <span> View Full Resume</span>
