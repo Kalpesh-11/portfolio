@@ -18,7 +18,7 @@ export default function ExperienceWrap() {
         />
       ))}
       <Link
-        href="/Kalpesh_bhagat.pdf"
+        href="/kalpesh_bhagat.pdf"
         target="_blank"
         className="hover-animation text-sm lg:text-base"
       >
