@@ -8,7 +8,7 @@ export default function Header() {
           Kalpesh Bhagat
         </h1>
         <h2 className=" text-slate-300 text-xl mt-4 font-medium lg:text-2xl">
-          Software Engineer at WisdmLabs
+          Sr. Software Engineer at MemberPress
         </h2>
         <p className="text-sm mt-4 lg:text-lg">
           I transform ideas into digital realities, crafting seamless web
