@@ -9,7 +9,7 @@ export default function AboutDetails() {
           {" "}
           full-stack development
         </span>
-        . With over 4+ years of experience in web development, I've specialized
+        . With over 5+ years of experience in web development, I've specialized
         in crafting custom WordPress plugins that cater to unique client needs.
         Now, I'm taking the exciting step toward becoming a full-stack
         developer.
