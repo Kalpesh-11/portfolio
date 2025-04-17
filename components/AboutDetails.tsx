@@ -12,7 +12,7 @@ export default function AboutDetails() {
         . With over 5+ years of experience in web development, I've specialized
         in crafting custom WordPress plugins that cater to unique client needs.
         Now, I'm taking the exciting step toward becoming a full-stack
-        developer.
+        developer. 
       </p>
       <p className="mb-5">
         I get excited about new technologies because they make web experiences

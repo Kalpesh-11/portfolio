@@ -18,7 +18,7 @@ export const socialMedia = [
   {
     title: "Github",
     icon: <FiGithub />,
-    link: "https://github.com/Kalpesh-11",
+    link: "https://github.com/kalpeshBhagat",
     target: "_blank",
   },
   {
